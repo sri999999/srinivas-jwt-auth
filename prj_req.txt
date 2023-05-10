@@ -1,0 +1,8 @@
+1. Create a new Python Flask-RESTful project or modify your existing project.
+2. Implement the JWT authentication and token generation endpoints as described in the previous task
+3. Implement the auth decorator function that checks the permission level of the user in the JWT token.
+4. The auth decorator should take a permission level as a parameter and return a function that can be used as a decorator for Flask-RESTful endpoints.
+5. The decorator function should check the user's permission level in the JWT token and allow access to the endpoint if the user has the required permission level. If the user does not have the required permission level, the decorator should return an HTTP 403 Forbidden error.
+6. Add appropriate error handling to your API. You should handle errors like invalid tokens or missing ls: Requires either admin permission or the user themselves. 
+7. Delete a user: Requires admin permission. 
+8. Create appropriate tests for all endpoints and ensure that they pass.
