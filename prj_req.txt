@@ -7,3 +7,5 @@
 7. Delete a user: Requires admin permission. 
 8. Create appropriate tests for all endpoints and ensure that they pass.
 -----------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------
