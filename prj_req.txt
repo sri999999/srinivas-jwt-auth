@@ -6,3 +6,4 @@
 6. Add appropriate error handling to your API. You should handle errors like invalid tokens or missing ls: Requires either admin permission or the user themselves. 
 7. Delete a user: Requires admin permission. 
 8. Create appropriate tests for all endpoints and ensure that they pass.
+-----------------------------------------------------------------------------------
